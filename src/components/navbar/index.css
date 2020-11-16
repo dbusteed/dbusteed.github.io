@@ -1,0 +1,43 @@
+.desktop-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(187, 187, 187);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.desktop-nav-item-group {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.desktop-nav-item {
+  margin-right: 1.5rem;
+}
+
+.desktop-nav-item-group-right .desktop-nav-item {
+  margin-right: 0rem;
+  margin-left: 1.5rem;
+}
+
+.desktop-nav-item-main {
+  font-size: 2rem;
+  /* margin-right: 1.5rem; */
+}
+
+.desktop-nav-item a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+
+.desktop-nav-item a:hover {
+  text-decoration: underline;
+}
+
+.desktop-nav-item a:visited {
+  color: rgb(15, 15, 15);
+}

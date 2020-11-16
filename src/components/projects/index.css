@@ -1,0 +1,43 @@
+.tag-filters-main {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 1rem;
+  padding: 0.75rem 0.5rem;
+}
+
+.tag-filters-main-header {
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.tag-filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+
+.tag-filters-header {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid rgb(187, 187, 187);
+}
+
+.tag-filters-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  margin-right: 0.5rem;
+  padding: 0.75rem;
+}
+
+.tag-filters-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-filters-tag {
+  margin-right: 0.1rem;
+  margin-bottom: 0.1rem;
+}
