@@ -112,7 +112,8 @@ const projects = [
 const tags = {
   
   'concepts': [
-    'data science', 'software engineering',
+    'data science', 'data engineering',
+    'software engineering',
     'game dev', 'web dev', 'NLP', 'AI',
     'math', 'sys admin'
   ],
