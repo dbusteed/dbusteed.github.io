@@ -7,6 +7,12 @@
 
 .tag-filters-main-header {
   margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tag-filters-main-header-text {
   font-size: 1.25rem;
   font-weight: bold;
 }
@@ -40,4 +46,36 @@
 .tag-filters-tag {
   margin-right: 0.1rem;
   margin-bottom: 0.1rem;
+}
+
+.text-button {
+  font-style: italic;
+}
+
+.text-button:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 900px) {
+  .tag-filters-main-header {
+    flex-direction: column;
+  }
+
+  .tag-filters-main-header-text {
+    margin-bottom: 0.5rem;
+  }
+  
+  .tag-filters {
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .tag-filters-tags {
+    margin-left: 1rem;
+  }
+
+  .tag-filters-group {
+    margin-right: 0;
+  }
 }

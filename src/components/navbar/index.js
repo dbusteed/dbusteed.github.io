@@ -6,7 +6,7 @@ export default function NavBar() {
     <div>
       <div className="desktop-nav">
         <div className="desktop-nav-item-group">
-          <div className="desktop-nav-item desktop-nav-item-main">
+          <div className="desktop-nav-item nav-main">
             <span>Davis Busteed</span>
           </div>
           <div className="desktop-nav-item">
@@ -31,6 +31,25 @@ export default function NavBar() {
               <span>LinkedIn</span>
             </a>
           </div>
+        </div>
+      </div>
+      <div className="mobile-nav">
+        <div className="nav-main">
+          <span>Davis Busteed</span>
+        </div>
+        <div className="mobile-nav-items">
+          <Link to="/about">
+            <span>About</span>
+          </Link>
+          <Link to="/projects">
+            <span>Projects</span>
+          </Link>
+          <a href="https://github.com/dbusteed">
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.linkedin.com/in/davisbusteed/">
+            <span>LinkedIn</span>
+          </a>
         </div>
       </div>
     </div>
