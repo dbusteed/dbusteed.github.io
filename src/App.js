@@ -1,6 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom'
 import NavBar from './components/navbar'
 import Content from './components/content'
+import SideNav from './components/sideNav'
 
 export default function App() {
   return (
@@ -10,7 +11,10 @@ export default function App() {
         
         <div className="main">
           <NavBar />
-          <Content />
+          <div className="main-content">  
+            {/* <SideNav /> */}
+            <Content />
+          </div>
         </div>
         
         <div className="gutter"></div>

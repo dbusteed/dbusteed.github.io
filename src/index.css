@@ -26,6 +26,11 @@ body {
   width: 60%;
 }
 
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
 @media only screen and (max-width: 1500px) {
   .gutter {
     width: 15%;

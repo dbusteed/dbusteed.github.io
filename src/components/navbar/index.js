@@ -7,28 +7,28 @@ export default function NavBar() {
       <div className="desktop-nav">
         <div className="desktop-nav-item-group">
           <div className="desktop-nav-item nav-main">
-            <span>Davis Busteed</span>
+            <span>davis busteed</span>
           </div>
           <div className="desktop-nav-item">
-            <Link to="/about">
-              <span>About</span>
+            <Link to="/">
+              <span>all posts</span>
             </Link>
           </div>
           <div className="desktop-nav-item">
             <Link to="/projects">
-              <span>Projects</span>
+              <span>projects</span>
             </Link>
           </div>
         </div>
         <div className="desktop-nav-item-group desktop-nav-item-group-right">
           <div className="desktop-nav-item">
             <a href="https://github.com/dbusteed">
-              <span>GitHub</span>
+              <span>github</span>
             </a>
           </div>
           <div className="desktop-nav-item">
             <a href="https://www.linkedin.com/in/davisbusteed/">
-              <span>LinkedIn</span>
+              <span>linkedin</span>
             </a>
           </div>
         </div>
