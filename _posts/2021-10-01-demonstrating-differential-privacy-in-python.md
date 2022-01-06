@@ -1,4 +1,5 @@
 ---
+title: Demonstrating Differential Privacy in Python
 tags:
   - Python
   - numpy
@@ -7,7 +8,7 @@ tags:
 
 Differential privacy is "a system for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals in the dataset" (thanks [Wikipedia](https://en.wikipedia.org/wiki/Differential_privacy)).
 
-Simply put, The goal of differntial privacy (DP) is to collect data while respecting the privacy of others. A popular example for explaining DP is the following hypothetical use-case:
+Simply put, The goal of differential privacy (DP) is to collect data while respecting the privacy of others. A popular example for explaining DP is the following hypothetical use-case:
 * Suppose you wanted to know the average income of your group of friends
 * But because they are your friends, you want to respect their privacy and not directly ask them how much they make
 
@@ -39,7 +40,7 @@ OBSCURE_MEAN = 30000
 OBSCURE_SD = 30000
 ```
 
-Next, we will need to generate the actual incomes for our friends. Generating a random number within a normal distirbution is super easy with `numpy`, we just need to use the following function:
+Next, we will need to generate the actual incomes for our friends. Generating a random number within a normal distribution is super easy with `numpy`, we just need to use the following function:
 ```python
 np.random.normal(mean, stdev)
 ```
@@ -62,7 +63,7 @@ First step complete! But remember, the whole point of differential privacy is to
 
 Now for the fun part. We will gather obscured income information from our friends by asking them to tell us the sum of their **actual income** and a **random number** from the "obscure" distribution we chose.
 
-For example, if youe friend Bob makes $100,000 a year, he would first get a random number following the obscured normal distribution (in this case `N~(30,000, 30,000)`). If his random number was -35,000, he would add the two numbers and say his "income" is $65,000. As long as he doesn't also tell us the random number he chose, we have no way of knowing what his actual income is. For all we know, Bob makes $25,000 a year and selected 40,000 for his random number.
+For example, if your friend Bob makes $100,000 a year, he would first get a random number following the obscured normal distribution (in this case `N~(30,000, 30,000)`). If his random number was -35,000, he would add the two numbers and say his "income" is $65,000. As long as he doesn't also tell us the random number he chose, we have no way of knowing what his actual income is. For all we know, Bob makes $25,000 a year and selected 40,000 for his random number.
 
 Let's simulate this process and add it to the script:
 ```python
@@ -72,7 +73,7 @@ for inc in true_incomes:
     obscured_incomes.append(_inc)
 ```
 
-Next, let's take the mean of the obscured incomes we gathered, and substract the mean of the obscured distribution we used to get random numbers:
+Next, let's take the mean of the obscured incomes we gathered, and subtract the mean of the obscured distribution we used to get random numbers:
 ```python
 estimated_mean = np.mean(obscured_incomes) - OBSCURE_MEAN
 ```
