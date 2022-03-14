@@ -6,18 +6,16 @@ tags:
 
 I've recently been playing around with the Rust programming language, and thought it'd be fun to put together a simple program that generates a random password.
 
-As a fairly new Rustacean, I spent quite a bit of time on [docs.rs](https://docs.rs/). While poking around in the `rand` crate, I found a `struct` named [Alphanumeric](https://docs.rs/rand/latest/rand/distributions/struct.Alphanumeric.html) that would makes generating a random password super easy...but...because I'm trying to gain more experience in Rust, I'm decided to not take this approach directly.
+As a fairly new Rustacean, I spent quite a bit of time on [docs.rs](https://docs.rs/). While poking around in the `rand` crate, I found a `struct` named [Alphanumeric](https://docs.rs/rand/latest/rand/distributions/struct.Alphanumeric.html) that would makes generating a random password super easy...but...because I'm trying to gain more experience in Rust, I'm decided to not to take this approach.
 
 ## Project Setup
 
 First, we'll set the project up using `cargo`. I like to build and run the `cargo` boilerplate (which is a simple "Hello, world!" program) to make sure everything is good to go:
-```
+```bash
 $ cargo new random_password
-
 $ cd random_password
-
 $ cargo run
---> Hello, world!
+Hello, world!
 ```
 
 We're going to need the `rand` crate, so let's add that to the `Cargo.toml` now:
@@ -75,7 +73,7 @@ println!("{}", pass);
 ```
 
 Great! Let's give this a run and see if it works:
-```rust
+```bash
 $ cargo run
 Tcq4om%D&Ht9rdYW&2KNafSi4DoIcrrC
 ```
@@ -120,10 +118,8 @@ length = match args.len() {
 Since the `pass` expression is already using `length`, that's all we need do! Let's give it a try:
 ```bash
 $ cargo build
-
-$ ./target/debug/random_password  # use the default
+$ ./target/debug/random_password     # use the default
 fe34ubt6JfMxTUNR@iUAK7TJtroiuuuT
-
 $ ./target/debug/random_password 10  # 10 chars
 Y2f8ByeLLh
 ```
