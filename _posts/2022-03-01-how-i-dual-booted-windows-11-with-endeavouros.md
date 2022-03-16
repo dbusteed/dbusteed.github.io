@@ -32,7 +32,7 @@ Windows has an option called "fast startup" which, as you may have guessed, help
 
 ### Step 1C: Disable Secure Boot
 
-From what I've read online, this *might not always be necessary*, but I had issues booting my USB until I disabled Secure Boot. I used prssed F2 while turning on my laptop to enter the UEFI menu, where I located the Secure Boot option and disabled it.
+From what I've read online, this *might not always be necessary*, but I had issues booting my USB until I disabled Secure Boot. I used pressed F2 while turning on my laptop to enter the UEFI menu, where I located the Secure Boot option and disabled it.
 
 ## Step 2: Prepare the Live USB
 
@@ -42,26 +42,26 @@ Next, I prepared the "live USB" which I'd use to install EndeavourOS. I download
 
 ### Step 3A: Boot the Live USB
 
-1. Turn off your computer and plug in the USB
-1. Turn on the computer and immediately start pressing your BOOT button. Again, this will depend on your system (it was F12 on my laptop)
-    * **NOTE:** On my other laptop, I didn't have a separate BOOT button, so I had to go thru the UEFI menu to select a device to boot from
-1. When you see a screen with an option to select your boot device, choose your USB drive
-1. Next, select the EndeavourOS version you want to boot up. There are two options for using open-source drivers or propertariy NVIDIA drivers. My laptop has a NVIDIA GPU, so I chose the NVIDIA option
-1. Let the system boot. You'll see a lot of output, along with a little message saying **Welcome to EndeavourOS!**
-1. When EndeavourOS finishes booting, you'll be able to test everything out in "live mode". Right now the OS is running off of the USB (which is why it may feel a little slow)
+Now it was time to boot the USB and get started with the installation. After a few online searches, I found that my laptop had a "BOOT" button (F12) that can be used to directly choose a boot source, rather than starting UEFI/BIOS and selecting the boot medium there. 
+
+After selecting the USB, I was given on option to choose "normal" EndeavourOS, or a version with proprietary NVIDIA drivers. I went the latter because my laptop has a NVIDIA GPU, and I'm not necessarily an "open-source purist".
+
+After that selection, I saw a lot of output as EndeavourOS started to boot up, as well as a message saying: **Welcome to EndeavourOS!**
+
+In a few minutes, the live USB was up-and-running, and I was able to start playing around with EndeavourOS.
 
 ### Step 3B: Install EndeavourOS
 
-And finally it was time to open up the installer.
+After testing the live USB for a few minutes, it was time to open up the installer.
 
-1. EndeavourOS gives options for an **offine** and **online** installer. The **online** installer requires internet access, but gives you more options on which packages are installed. Most importantly, it allows you to choose a different desktop environment than the standard XFCE. I wanted to use the Cinnamon DE so I did the **online** installer
+1. EndeavourOS gives options for an **offline** and **online** installer. The **online** installer requires internet access, but gives you more options on which packages are installed. Most importantly, it allows you to choose a different desktop environment than the standard XFCE. I wanted to use the Cinnamon DE so I did the **online** installer
 1. Next, I setup my language, location, and keyboard layout
 1. Next was the disk partitioning. There's a lot of resources out there on the *best* way to partition your Linux setup, which can be kind of confusing. After reading up on the motivations behind the different partitions schemes, I decided to create the following partitions:
     * 512 MB (FAT32) mounted at `/boot/efi` with the `boot` flag
     * Remaining free space (500+ GB, ext4) mounted at `/` with the `root` flag
 1. After confirming the partition setup, I selected the components I wanted to install. I left the kept options and selected the Cinnamon desktop environment
 1. I finished up the installation by making my user account, and confirming my selections
-1. When the installtion finished, I restarted my laptop
+1. When the installation finished, I restarted my laptop
 
 ## Step 4: Confirm Everything is Working!
 
