@@ -2,6 +2,7 @@
 title: How I Dual Booted Windows 11 with EndeavourOS
 tags:
   - Linux
+  - System Administration
 ---
 
 I've been using Ubuntu Budgie for the last 3 years, but I recently got a new laptop and decided to switch things up and try EndeavourOS. Until now, I've only had experience with Debian- and RedHat-based distros, so this will be my first time using Arch. From what I've read online, EndeavourOS is an easy introduction to Arch, so I thought it would be a fun distro to try out.
@@ -18,25 +19,17 @@ Before installing EndeavourOS, I made some changes to my Windows installation.
 
 I used the Disk Management tool on Windows to shrink my C drive and create some free space on the disk for EndeavourOS.
 
-Before:
-
-![before_shrink.png](/assets/images/endeavour/Untitled.png)
-
-After:
-
-![after_shrink.png](/assets/images/endeavour/Untitled_1.png)
-
 ### Step 1B: Disable Fast Startup
 
 Windows has an option called "fast startup" which, as you may have guessed, helps Windows start up quicker. This option allows Windows to hibernate for short periods rather than completely shutting down. This can cause issues when dual booting because the live USB will notice that another OS is still running on the system, and won't be able to boot.
 
 ### Step 1C: Disable Secure Boot
 
-From what I've read online, this *might not always be necessary*, but I had issues booting my USB until I disabled Secure Boot. I used pressed F2 while turning on my laptop to enter the UEFI menu, where I located the Secure Boot option and disabled it.
+From what I've read online, this *might not always be necessary*, but I had issues booting my USB until I disabled Secure Boot. I pressed F2 while turning on my laptop to enter the UEFI menu, where I located the Secure Boot option and disabled it.
 
 ## Step 2: Prepare the Live USB
 
-Next, I prepared the "live USB" which I'd use to install EndeavourOS. I downloaded the latest `*.iso` from [https://endeavouros.com/](https://endeavouros.com/), and then flashed it to a USB using [etcher/](https://www.balena.io/etcher/).
+Next, I prepared the "live USB" for installing EndeavourOS. I downloaded the latest `*.iso` from [https://endeavouros.com/](https://endeavouros.com/), and then flashed it to a USB using [etcher/](https://www.balena.io/etcher/).
 
 ## Step 3: Boot the USB and Install EndeavourOS
 
@@ -59,10 +52,10 @@ After testing the live USB for a few minutes, it was time to open up the install
 1. Next was the disk partitioning. There's a lot of resources out there on the *best* way to partition your Linux setup, which can be kind of confusing. After reading up on the motivations behind the different partitions schemes, I decided to create the following partitions:
     * 512 MB (FAT32) mounted at `/boot/efi` with the `boot` flag
     * Remaining free space (500+ GB, ext4) mounted at `/` with the `root` flag
-1. After confirming the partition setup, I selected the components I wanted to install. I left the kept options and selected the Cinnamon desktop environment
+1. After confirming the partition setup, I selected the components I wanted to install. I selected the Cinnamon desktop environment as well as the LTS Linux kernel (I've heard the LTS kernel can help out with NVIDIA-related bugs, so I'm adding it to be safe)
 1. I finished up the installation by making my user account, and confirming my selections
 1. When the installation finished, I restarted my laptop
 
-## Step 4: Confirm Everything is Working!
+## Step 4: Confirm Everything is Working
 
-After restarting, my laptop displayed the boot loader for EndeavourOS. There was an option for booting into EndeavourOS and one for booting into Windows via the Windows Boot Manager. To make sure everything worked, I loaded up EndeavourOS, then restarted the laptop again and booted into Windows. Both OSs worked as expected, so the everything was successful!
+After restarting, my laptop displayed the boot loader for EndeavourOS. There was an option for booting into EndeavourOS and one for booting into Windows via the Windows Boot Manager. To make sure everything worked, I loaded up EndeavourOS, then restarted the laptop again and booted into Windows. Both OSs worked as expected, so the everything was successful.
