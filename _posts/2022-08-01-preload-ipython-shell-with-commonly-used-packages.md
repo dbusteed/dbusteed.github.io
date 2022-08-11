@@ -1,5 +1,5 @@
 ---
-title: Start IPython Shell with Commonly Used Packages
+title: Preload IPython Shell with Commonly Used Packages
 tags:
   - Python
   - Linux

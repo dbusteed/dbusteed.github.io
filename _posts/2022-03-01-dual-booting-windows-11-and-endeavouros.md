@@ -9,7 +9,7 @@ I've been using Ubuntu Budgie for the last 3 years, but I recently got a new lap
 
 I occasionally need to use Windows (unfortunately), so I've decided to dual boot Windows 11 with EndeavourOS.
 
-**NOTE:** This article is less of a walkthrough, and more of a log of the steps I took. I won't cover all the details, so you might need to lookup a few other resources if you get stuck.
+> **NOTE:** This article is less of a walkthrough, and more of a log of the steps I took. I won't cover all the details, so you might need to lookup a few other resources if you get stuck.
 
 ## Step 1: Windows Setup
 

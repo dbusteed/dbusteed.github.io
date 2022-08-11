@@ -6,6 +6,8 @@ tags:
   - DevOps
 ---
 
+> **NOTE:** Newer versions of Jupyter include the `execute` subcommand which makes this article a bit deprecated, so keep that in mind!
+
 I often work with Jupyter Notebooks on a remote server via Jupyter Lab, and sometimes need to run a notebook on a regular basis.
 
 In the past, I would convert the notebook to a Python file, and then add that Python file to the crontab. This approach worked okay, but I would need to need to re-convert the notebook if I made any changes. I was also bothered that I needed to keep a `*.ipynb` and `*.py` file for every script. If I had 5 different tasks, my file system would have 5 notebooks and 5 Python scripts. This isn't a big deal, but it slowed me down while looking for the correct file on Jupyter Lab.
