@@ -9,12 +9,12 @@
   margin-right: 0;
   width: 100%;
   margin-top: 3em;
-  color: $text-color; 
+  color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-//   background-color: $footer-background-color;
+  background-color: $footer-background-color;
 
   footer {
     @include clearfix;
@@ -47,7 +47,6 @@
 }
 
 .page__footer-copyright {
-//   text-align: center;
   font-family: $global-font-family;
   font-size: $type-size-7;
 }
