@@ -1,7 +1,7 @@
 ---
-title: Estimating pi with Monte Carlo Simulation using Bevy
+title: Estimating Pi with Monte Carlo Simulation using Bevy
 tags:
-  - Simulation
+  - simulation
   - Rust
   - Bevy
 ---

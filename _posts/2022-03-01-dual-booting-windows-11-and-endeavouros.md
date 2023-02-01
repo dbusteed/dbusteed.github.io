@@ -2,7 +2,7 @@
 title: Dual Booting Windows 11 and EndeavourOS
 tags:
   - Linux
-  - System Administration
+  - system administration
 ---
 
 I've been using Ubuntu Budgie for the last 3 years, but I recently got a new laptop and decided to switch things up and try EndeavourOS. Until now, I've only had experience with Debian- and RedHat-based distros, so this will be my first time using Arch. From what I've read online, EndeavourOS is an easy introduction to Arch, so I thought it would be a fun distro to try out.
