@@ -6,9 +6,9 @@ tags:
   - system administration
 ---
 
-Jupyter Lab is an awesome tool for data science workflows and is super easy to run locally. But...getting it setup on a remote server (which allows for remote access from anywhere, collaboration with team members, and the ability to access different compute resources) can be a bit more invovled.
+Jupyter Lab is an awesome tool for data science workflows and is super easy to run locally. But...getting it setup on a remote server (which allows for remote access from anywhere, collaboration with team members, and the ability to access different compute resources) can be a bit more involved.
 
-> **NOTE:** This walkthrogh assumes some basic experience with Linux
+> **NOTE:** This walkthrough assumes some basic experience with Linux
 
 ## Step 1: Setup Server
 
@@ -60,7 +60,7 @@ Open that up with `vim`, `nano`, or through an even more friendly approach like 
 $ vim .jupyter/jupyter_lab_config.py
 ```
 
-Make the following changes to the file by uncommenting the relavant sections and updating the value:
+Make the following changes to the file by uncommenting the relevant sections and updating the value:
 
 ```python
 # allow all origins and IPs
@@ -85,7 +85,7 @@ And just like that, Jupyter Lab is setup! Give it try by starting Jupyter Lab th
 
 From your server:
 ```bash
-$ jupyer lab
+$ jupyter lab
 ```
 
 From your host machine's browser:
@@ -103,11 +103,11 @@ Adding HTTPS to your setup ensures that data transferred to and from your Jupyte
 
 We can't setup HTTPS for our website until we get a domain name and setup DNS. There's a lot of approaches to this, but my favorite is using [https://freedns.afraid.org/](https://freedns.afraid.org/). The site may look a little outdated, but it's a super easy (and free!) way to create domain name that points to your IP.
 
-After creating an account, you can click on the "subdomains" menu option. From here, you can select an exsiting domain (like "moooo.com"), and create your own subdomain for free (for example "dev-server.moooo.com"). Aside from that, the only real step here is adding your IP address as an [A record](https://en.wikipedia.org/wiki/List_of_DNS_record_types#A).
+After creating an account, you can click on the "subdomains" menu option. From here, you can select an existing domain (like "moooo.com"), and create your own subdomain for free (for example "dev-server.moooo.com"). Aside from that, the only real step here is adding your IP address as an [A record](https://en.wikipedia.org/wiki/List_of_DNS_record_types#A).
 
 ### Step 4B: Setup NGINX
 
-We'll continue to keep things simple and free by using LetsEncrypt to obtain our SSL certificates. To do this, we'll use a tool called `certbot` which handles that process for us. But before we can do that, we'll need a webserver, so let's install NGINX:
+We'll continue to keep things simple and free by using LetsEncrypt to obtain our SSL certificates. To do this, we'll use a tool called `certbot` which handles that process for us. But before we can do that, we'll need a web server, so let's install NGINX:
 
 ```bash
 $ apt install nginx
@@ -137,7 +137,7 @@ After that, I went back to my web browser and navigated to the HTTPS version of 
 
 ### Step 4D: Setup Reverse Proxy
 
-Final step, almost there! When we run Jupyter on the server locally, it is running on HTTP, which means we still won't be able to access Jupyter via HTTPS without setting up a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy). Luckily, NGINX makes this very easy! This also gives us a chance to add a unique path to our domain that points to Jupyter, which can be handy if we decide to run other UI's from this server.
+Final step, almost there! When we run Jupyter on the server locally, it is running on HTTP, which means we still won't be able to access Jupyter via HTTPS without setting up a [reverse proxy](https://en.wikipedia.org/wiki/Reverse_proxy). Luckily, NGINX makes this very easy! This also gives us a chance to add a unique path to our domain that points to Jupyter, which can be handy if we decide to run other UIs from this server.
 
 As the root user, we are going to edit the following file: `/etc/nginx/sites-enabled/default`
 
