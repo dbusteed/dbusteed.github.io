@@ -3,7 +3,7 @@ title: Running Jupyter Notebooks in Cron
 tags:
   - Jupyter
   - Python
-  - DevOps
+  - dev ops
 ---
 
 > **NOTE:** Newer versions of Jupyter include the `execute` subcommand which makes this article a bit deprecated, so keep that in mind!

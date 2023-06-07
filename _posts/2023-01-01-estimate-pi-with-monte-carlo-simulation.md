@@ -18,6 +18,8 @@ One of these days, I'd like to place two containers outside in the rain and run 
 
 Bevy can be a bit verbose, especially when definining the positions of multiple objects, so the snippets below will highlight key components of the simulation. The full source code can be found on [GitHub](https://github.com/dbusteed/monte-carlo-pi).
 
+> **NOTE** I updated the project to use custom 3D models I built in Blender (instead of the built-in `PbrBundle`). Using these assets added extra complexity to the app setup (`AppState`, `SystemSet`, etc), so to keep this post concise I'll keep the original, more simplified version here
+
 ## Project Setup
 
 I created a new Rust project with `cargo`, then added Bevy, Bevy Rapier (physics), and the `rand` crate for random numbers.
