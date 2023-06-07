@@ -1,7 +1,7 @@
 ---
 title: Setup Jupyter Lab on a Remote Server (with HTTPS!)
 tags:
-  - Jupyer
+  - Jupyter
   - Python
   - system administration
 ---
