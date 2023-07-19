@@ -171,7 +171,7 @@ $ nginx -t && nginx -s reload
 I prefer to run Jupyter in the background so I can continue to run other tasks on the server, so the final step is to start Jupyter using `nohup`:
 
 ```bash
-$ nohup jupyter lab &> /dev/null
+$ nohup jupyter lab &> /dev/null &
 ```
 
 ## Conclusion
