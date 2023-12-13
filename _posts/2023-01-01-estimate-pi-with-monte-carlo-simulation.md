@@ -4,6 +4,8 @@ tags:
   - simulation
   - Rust
   - Bevy
+excerpt: Estimate Pi with a fun 3D simulation
+description: Estimate Pi with a fun 3D simulation
 ---
 
 > Run the simulation [here](https://dbusteed.github.io/monte-carlo-pi/)

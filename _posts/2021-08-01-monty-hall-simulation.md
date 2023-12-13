@@ -4,9 +4,11 @@ tags:
   - Python
   - simulation
   - statistics
+excerpt: Demonstrating the Monty Hall problem with Python 
+description: Demonstrating the Monty Hall problem with Python 
 ---
 
-I recently rewatched a [video explaining the Monty Hall problem](https://www.youtube.com/watch?v=4Lb-6rxZxx0), and thought it would be fun to write a small Python program that proves that the less-than-obvious approach of switching your chosen door leads to higher probability of success.
+I recently watched a [video explaining the Monty Hall problem](https://www.youtube.com/watch?v=4Lb-6rxZxx0), and thought it would be fun to write a small Python program that proves that the less-than-obvious approach of switching your chosen door leads to higher probability of success.
 
 First, we'll need to bring in the necessary libraries:
 ```python

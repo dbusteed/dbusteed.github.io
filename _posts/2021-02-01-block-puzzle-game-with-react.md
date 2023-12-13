@@ -4,7 +4,8 @@ tags:
   - React
   - Javascript
   - Playable
-excerpt: Test description
+excerpt: Building an unorthodox puzzle game with React
+description: Building an unorthodox puzzle game with React
 ---
 
 > Play the game [here](https://dbusteed.github.io/block-puzzle/)

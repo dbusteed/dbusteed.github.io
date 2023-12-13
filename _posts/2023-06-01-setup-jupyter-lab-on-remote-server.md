@@ -4,6 +4,8 @@ tags:
   - Jupyter
   - Python
   - system administration
+excerpt: A high-level walkthrough of a dedicated Jupyter Lab setup
+description: A high-level walkthrough of a dedicated Jupyter Lab setup
 ---
 
 Jupyter Lab is an awesome tool for data science workflows and is super easy to run locally. But...getting it setup on a remote server (which allows for remote access from anywhere, collaboration with team members, and the ability to access different compute resources) can be a bit more involved.

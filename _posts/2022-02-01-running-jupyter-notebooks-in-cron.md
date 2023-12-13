@@ -4,9 +4,11 @@ tags:
   - Jupyter
   - Python
   - dev ops
+excerpt: Customized (and outdated) solution for running Jupyter Notebooks in cron.
+description: Customized (and outdated) solution for running Jupyter Notebooks in cron.
 ---
 
-> **NOTE:** Newer versions of Jupyter include the `execute` subcommand which makes this article a bit deprecated, so keep that in mind!
+> **NOTE:** Newer versions of Jupyter include the `execute` subcommand which makes this article a bit deprecated, so keep that in mind! 
 
 I often work with Jupyter Notebooks on a remote server via Jupyter Lab, and sometimes need to run a notebook on a regular basis.
 
