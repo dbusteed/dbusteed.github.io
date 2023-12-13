@@ -4,7 +4,7 @@ tags:
   - React
   - Javascript
   - Playable
-description: Test description
+excerpt: Test description
 ---
 
 > Play the game [here](https://dbusteed.github.io/block-puzzle/)
