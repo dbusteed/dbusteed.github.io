@@ -70,4 +70,3 @@ After I wrote that nifty Bash script, I could easily run my notebooks on a sched
 
 ## Notes
 * The `run_notebook` script has a few redirects, which help control what the script outputs. When it converts the notebook, we use a `&>` redirect to `/dev/null`, which sends STDOUT and STDERR to "nowhere". We don't really care to see this output, so we use this trick to ignore it. In the next step, we use a `&>>` to **append** STDOUT and STDERR to the log file. The extra `>` is important, otherwise we'd replace the contents of the file each time
-

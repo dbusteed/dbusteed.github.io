@@ -6,6 +6,8 @@ tags:
   - Bevy
 ---
 
+> Run the simulation [here](https://dbusteed.github.io/monte-carlo-pi/)
+
 I stumbled upon a [video](https://www.youtube.com/watch?v=7ESK5SaP-bc) about [Monte Carlo Simulations](https://en.wikipedia.org/wiki/Monte_Carlo_method), where the creator had a cool graphical demonstration of estimating pi with two containers. The first container was a cylinder with a radius of $ r $, and the second was a square box with a side length of $ r $. Balls were randomly dropped in a large space, some of which laneded in the cicular container, and some landed in the square (while others simply landed on the ground). 
 
 The number of balls in the containers can act as a proxy for the container's area, which allows us to compare the areas of the shapes and isolate pi.
@@ -224,5 +226,3 @@ fn update_ui(mut q_text: Query<&mut Text>, data: Res<Data>) {
 The great thing about Rust + Bevy is that it's super easy to deploy to the web via WASM. I followed the steps from the [Unofficial Bevy Cheat Book](https://bevy-cheatbook.github.io/platforms/wasm.html), generated the `*.js/*.wasm` files, then added them to a simple `index.html`.
 
 After putting my code on GitHub, I pointed the GitHub pages to the main branch, and just like that the app was alive!
-
-Check it out here: [https://dbusteed.github.io/monte-carlo-pi/](https://dbusteed.github.io/monte-carlo-pi/)

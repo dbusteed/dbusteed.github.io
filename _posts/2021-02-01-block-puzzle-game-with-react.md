@@ -3,7 +3,10 @@ title: Block Puzzle Game with React
 tags:
   - React
   - Javascript
+  - Playable
 ---
+
+> Play the game [here](https://dbusteed.github.io/block-puzzle/)
 
 I find it interesting when people use a programming language / framework outside of it's intended use cases. Oftentimes this happens when the developer simply doesn't know any better (we've all been there), but sometimes people just do something weird for the sake of doing it.
 
@@ -13,4 +16,4 @@ The object of the game is to rearrange blocks of different sizes to fit nicely i
 
 ![block_puzzle.png](/assets/images/block_puzzle.png)
 
-Play the game [here](https://dbusteed.github.io/block-puzzle/), or checkout the code [here](https://github.com/dbusteed/block-puzzle)
+Check out the code [here](https://github.com/dbusteed/block-puzzle)
