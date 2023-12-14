@@ -2,8 +2,6 @@
 title: Random Password Generator in Rust
 tags:
   - Rust
-excerpt: Writing a basic password generator
-description: Writing a basic password generator
 ---
 
 I've recently been playing around with the Rust programming language, and thought it'd be fun to put together a simple program that generates a random password.

@@ -4,8 +4,6 @@ tags:
   - Python
   - numpy
   - statistics
-excerpt: Exploring differential privacy with a simple example
-description: Exploring differential privacy with a simple example  
 ---
 
 Differential privacy is "a system for publicly sharing information about a dataset by describing the patterns of groups within the dataset while withholding information about individuals in the dataset" (thanks [Wikipedia](https://en.wikipedia.org/wiki/Differential_privacy)).

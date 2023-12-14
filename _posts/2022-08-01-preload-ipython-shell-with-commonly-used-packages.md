@@ -3,8 +3,6 @@ title: Preload IPython Shell with Commonly Used Packages
 tags:
   - Python
   - Linux
-excerpt: Configure your IPython shell to automatically import packages
-description: Configure your IPython shell to automatically import packages
 ---
 
 The more I've used Python, the more I've come to rely on it for ad-hoc computation and other miscellaneous tasks. This "unstructured" approach to programming is aided by interpreted languages, which have some sort of "interactive shell" or [REPL](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop).

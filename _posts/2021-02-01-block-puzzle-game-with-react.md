@@ -4,8 +4,8 @@ tags:
   - React
   - Javascript
   - Playable
-excerpt: Building an unorthodox puzzle game with React
-description: Building an unorthodox puzzle game with React
+excerpt: I find it interesting when people use a programming language / framework outside of it's intended use cases. Oftentimes this happens when the developer simply doesn't know any better (we've all been there), but sometimes people just do something weird for the sake of doing it.
+description: I find it interesting when people use a programming language / framework outside of it's intended use cases. Oftentimes this happens when the developer simply doesn't know any better (we've all been there), but sometimes people just do something weird for the sake of doing it.
 ---
 
 > Play the game [here](https://dbusteed.github.io/block-puzzle/)
