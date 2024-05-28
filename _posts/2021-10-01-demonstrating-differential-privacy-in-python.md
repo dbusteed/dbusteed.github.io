@@ -63,7 +63,9 @@ First step complete! But remember, the whole point of differential privacy is to
 
 Now for the fun part. We will gather obscured income information from our friends by asking them to tell us the sum of their **actual income** and a **random number** from the "obscure" distribution we chose.
 
-For example, if your friend Bob makes $100,000 a year, he would first get a random number following the obscured normal distribution (in this case `N~(30,000, 30,000)`). If his random number was -35,000, he would add the two numbers and say his "income" is $65,000. As long as he doesn't also tell us the random number he chose, we have no way of knowing what his actual income is. For all we know, Bob makes $25,000 a year and selected 40,000 for his random number.
+For example, if your friend Bob makes $100,000 a year, he would first get a random number following the obscured normal distribution (in this case `N~(30,000, 30,000)`). If his random number was -35,000, he would add the two numbers and say his "income" is $65,000.
+
+As long as he doesn't also tell us the random number he chose, we have no way of knowing what his actual income is. For all we know, Bob makes $25,000 a year and selected 40,000 for his random number.
 
 Let's simulate this process and add it to the script:
 ```python
