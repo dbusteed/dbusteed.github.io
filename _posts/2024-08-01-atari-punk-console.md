@@ -1,5 +1,5 @@
 ---
-title: My First Atari Punk Console
+title: Building an Atari Punk Console
 tags:
   - electronics
   - DIY synth
