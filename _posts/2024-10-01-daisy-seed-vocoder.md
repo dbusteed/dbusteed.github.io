@@ -69,12 +69,3 @@ Here's a small sample:
 </audio>
 
 If you have any ideas to improve the design and/or code, please open an issue on [the repo](https://github.com/dbusteed/vocodr). Thanks! 
-
-<!-- # _include/embed-audio.html
-<audio controls>
-  <source src="{{ include.src }}" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-# Use in the post as
-{% include embed-audio.html src="/assets/audio/<audio-source-name>.wav" %} -->
