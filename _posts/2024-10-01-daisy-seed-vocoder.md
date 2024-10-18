@@ -59,15 +59,16 @@ All the code can be found [here](https://github.com/dbusteed/vocodr/blob/master/
 
 ## Step 5: Try it Out!
 
-Once completed, I flashed the code via VS Code + DFU to the Daisy. I plugged in my mic to the preamp, then connected the audio out to my audio interface. As mentioned earlier, it's far from perfect. When playing back a few samples, it's hard to determine what is actually being said.
+Once completed, I flashed the code via VS Code + DFU to the Daisy. I plugged in my mic to the preamp, then connected the audio out to my audio interface. It's far from perfect, but does resemble a vocoder to some degree.
 
 Here's a small sample:
 
 <audio controls>
-  <source src="/assets/audio/vocodr_sample.wav" type="audio/mpeg">
+  <source src="/assets/audio/vocodr_sample2.wav" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
-(Bonus points if you could make out "Hello, I am a robot").
+If you have any ideas to improve the design and/or code, please open an issue on [the repo](https://github.com/dbusteed/vocodr).
 
-If you have any ideas to improve the design and/or code, please open an issue on [the repo](https://github.com/dbusteed/vocodr). Thanks! 
+Thanks already to Nate on the Daisy Discord for suggesting I raise the frequency of the final low pass filter, it made a big difference!
+
