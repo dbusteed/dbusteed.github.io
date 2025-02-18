@@ -55,7 +55,7 @@ I followed Gahoo's suggestion from the the [PedalPCB forum](https://forum.pedalp
 
 Getting it soldered into place was another story. I decided to borrow the ground connection of the 100k resistor to connect the "C" of the RC filter. Here's a simple sketch of the patch.
 
-<img src="/assets/images/chimera/patch.jpg" alt="patch" width="600"/>
+<img src="/assets/images/chimera/patch.png" alt="patch" width="600"/>
 
 The RC filter is shown in green and orange. Luckily the alloted space for the 1u cap is pretty spacious, so that gave me some extra wiggle room. The RC filter plus the 1u cap connect at a single point, so I brought those three components to the breadboard and solder them together first. Then I brought that 100k resistor and soldered one of it's legs to my RC cap (orange and blue in the sketch). After that, I brought this mess back to the PCB, and carefully threaded the legs in place, and twisted where need to make room for Seed headers.
 
