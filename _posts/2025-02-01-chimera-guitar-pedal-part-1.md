@@ -1,5 +1,5 @@
 ---
-title: Chimera: A DIY Multi-Effect Guitar Pedal (Part 1)
+title: Chimera. A DIY Multi-Effect Guitar Pedal (Part 1)
 tags:
   - electronics
   - DIY synth
