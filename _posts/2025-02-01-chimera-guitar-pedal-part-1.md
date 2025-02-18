@@ -29,11 +29,11 @@ Building the enclosure was pretty fun. I printed the drill guide from the Terrar
 
 The enclosure needs holes for the 6 different component types: potentiometers, toggle switches, led holders, foot switches, 1/4 jacks, and DC power jack. The drill bits I use for miscellaneous house projects were didn't give me the size variety I needed, so I picked up a set of cheap drill bits from Harbor Freight with 1/64" increments, which was extremely helpful to match the exact size of each component. This plus my cheap digital caliper from Amazon made the drilling process a breeze.
 
-![enclosure_drilled](/assets/images/chimera/IMG_0834.jpg)
+<img src="/assets/images/chimera/IMG_0834.jpg" alt="enclosure_drilled" width="600"/>
 
 After drilling, I used some white spray paint I found in my garage.
 
-![enclosure_painted](/assets/images/chimera/IMG_0835.jpg)
+<img src="/assets/images/chimera/IMG_0835.jpg" alt="enclosure_painted" width="600"/>
 
 It was hard to get a good coat on the edges and corners of the box, so I ruffed up the entire paint job with a sanding block to get a consistent look.
 
@@ -55,11 +55,11 @@ I followed Gahoo's suggestion from the the [PedalPCB forum](https://forum.pedalp
 
 Getting it soldered into place was another story. I decided to borrow the ground connection of the 100k resistor to connect the "C" of the RC filter. Here's a simple sketch of the patch.
 
-![patch](/assets/images/chimera/patch.png)
+<img src="/assets/images/chimera/patch.jpg" alt="patch" width="600"/>
 
 The RC filter is shown in green and orange. Luckily the alloted space for the 1u cap is pretty spacious, so that gave me some extra wiggle room. The RC filter plus the 1u cap connect at a single point, so I brought those three components to the breadboard and solder them together first. Then I brought that 100k resistor and soldered one of it's legs to my RC cap (orange and blue in the sketch). After that, I brought this mess back to the PCB, and carefully threaded the legs in place, and twisted where need to make room for Seed headers.
 
-![pcb_1](/assets/images/chimera/IMG_0779.jpg)
+<img src="/assets/images/chimera/IMG_0779.jpg" alt="pcb_1" width="600"/>
 
 ### Step 3.3: Add Headers and Check Daisy's Fit
 
@@ -67,7 +67,7 @@ Next, I added the headers for the Seed. Nothing tricky here, just tried my best 
 
 I put the TL072 into the IC socket, and pressed the Seed into the headers. At this point, I flashed a simple bypass program to the Seed and ensure things were working correctly before continuing.
 
-![pcb_2](/assets/images/chimera/IMG_0780.jpg)
+<img src="/assets/images/chimera/IMG_0780.jpg" alt="pcb_2" width="600"/>
 
 ### Step 3.4: Add Switches
 
@@ -99,7 +99,7 @@ I tightened the switches and pots enough to bring the board closer to the enclos
 
 After which, I soldered the wires to my footswitches, and installed them into the enclosure.
 
-![pedal_1](/assets/images/chimera/IMG_0847.jpg)
+<img src="/assets/images/chimera/IMG_0847.jpg" alt="pedal_1" width="600"/>
 
 ## Step 4: Troubleshooting
 
@@ -111,12 +111,10 @@ Some success? My pedal worked when my jacks were free from the enclosure. As soo
 
 I order new jacks to swap this out, but for now, I just kept the nut on the jack loose, and it works fine!
 
-![pedal_2](/assets/images/chimera/IMG_0871.jpeg)
+<img src="/assets/images/chimera/IMG_0871.jpeg" alt="pedal_2" width="600"/>
 
 ## Next Steps: Programming
 
 Hardware complete! Now the fun begins, as I decide what my pedal will do. With 6 knobs, 4 switches, and 2 footswitches, the opportunities are endless.
 
 Check out [part 2](https://dbusteed.github.io/chimera-guitar-pedal-part-2/) to see about how I programmed the pedal with multiple overlapping effects and looper functionality (code available).
-- gpio pins
-- demo

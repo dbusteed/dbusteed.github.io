@@ -5,7 +5,4 @@ tags:
   - DIY synth
 ---
 
-## COMING SOON
-
-- gpio pins
-- demo
+Test test, will this page work?
