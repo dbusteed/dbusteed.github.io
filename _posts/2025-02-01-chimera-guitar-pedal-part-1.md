@@ -1,5 +1,5 @@
 ---
-title: Chimera. A DIY Multi-Effect Guitar Pedal (Part 1)
+title: "Chimera: A DIY Multi-Effect Guitar Pedal (Part 1)"
 tags:
   - electronics
   - DIY synth
@@ -17,7 +17,7 @@ The only thing that was somewhat tricky to find was the 16mm right-angle potenti
 
 Before getting ahead of myself, I tested the basics of this setup on the breadboard. I've played around with the Daisy previously, so I was already familiar with the basics, but I was curious to test the voltage regulator and op amp circuitry.
 
-![breadboard](/assets/images/chimera/IMG_0739.jpg)
+<img src="/assets/images/chimera/IMG_0739.jpg" alt="breadboard" width="600"/>
 
 I tested a simple Chorus effect, and it worked great. Time to get this off the breadboard!
 
@@ -25,7 +25,7 @@ I tested a simple Chorus effect, and it worked great. Time to get this off the b
 
 Building the enclosure was pretty fun. I printed the drill guide from the Terrarium build docs, and taped that onto the enclosure.
 
-![enclosure_template](/assets/images/chimera/IMG_0729.jpg)
+<img src="/assets/images/chimera/IMG_0729.jpg" alt="enclosure_template" width="600"/>
 
 The enclosure needs holes for the 6 different component types: potentiometers, toggle switches, led holders, foot switches, 1/4 jacks, and DC power jack. The drill bits I use for miscellaneous house projects were didn't give me the size variety I needed, so I picked up a set of cheap drill bits from Harbor Freight with 1/64" increments, which was extremely helpful to match the exact size of each component. This plus my cheap digital caliper from Amazon made the drilling process a breeze.
 

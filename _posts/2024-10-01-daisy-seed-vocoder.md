@@ -25,7 +25,7 @@ You'll notice the voltage is 3.3 volts. I was originally testing this on a separ
 
 Next, I added the Daisy. I put my Daisy Seed at the top of the breadboard for easy USB access. The power and ground pins from the Daisy were connected to the pos/neg rails, which were then connected to the preamp portion on the other end of the breadboard. 
 
-**Quick note on inputs and outputs:** There are a lot of options here. I tested a few Daisy projects with an 8 ohm speaker for output, but eventually moved to an audio jack which is more versitle. But once again, there are a few options here too. The old microphone I had lying around uses a 1/4" connector (instead of an XLR connector), so I used a 1/4" jack for the input as well as the output. I briefly used a 3.5mm jack for the output (which works nicely with headphones), but using 1/4" jack and a adding a 3.5mm-to-1/4"-converter seemed to be the best of both worlds.
+**Quick note on inputs and outputs:** There are a lot of options here. I tested a few Daisy projects with an 8 ohm speaker for output, but eventually moved to an audio jack which is more versatile. But once again, there are a few options here too. The old microphone I had lying around uses a 1/4" connector (instead of an XLR connector), so I used a 1/4" jack for the input as well as the output. I briefly used a 3.5mm jack for the output (which works nicely with headphones), but using 1/4" jack and a adding a 3.5mm-to-1/4"-converter seemed to be the best of both worlds.
 
 ![vocoder_diagram](/assets/images/vocoder_diagram.png)
 
