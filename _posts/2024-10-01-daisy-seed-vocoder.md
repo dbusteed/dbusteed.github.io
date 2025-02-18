@@ -1,5 +1,5 @@
 ---
-title: DIY Vocoder and DIY Preamp Using Daisy Seed
+title: DIY Vocoder Using Daisy Seed
 tags:
   - electronics
   - DIY synth
