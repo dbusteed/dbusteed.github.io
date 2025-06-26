@@ -6,7 +6,7 @@ tags:
   - Eurorack
 ---
 
-Building a PSU seemed to be a logical place to begin my DIY Eurorack journey. I wouldn't get very far with prototyping modules without the +12/-12/(+5) power supply required by most designs.
+Building a PSU seemed to be a logical place to begin my DIY Eurorack journey. I wouldn't get very far with prototyping modules without the +12V/-12V/+5V power supply required by most designs.
 
 Of course there are several professionally designed and built Eurorack PSUs, but I'm hoping to build (most) everything from scratch as I explore Eurorack. This will keep things educational and much, much cheaper. 
 
@@ -15,7 +15,7 @@ Of course there are several professionally designed and built Eurorack PSUs, but
 I'm still fairly new to electronics, so I relied on some great resources out there that explained how to build a DIY PSU. The first of which was a [video by Moritz Klein](https://www.youtube.com/watch?v=pQKN30Mzi2g). The video does an awesome job of explaining the PSU design step-by-step. Here's the basics:
 - We can use an AC supply (via AC-AC wallwart) and diodes to get positive, neutral (GND), and negative voltage levels
 - Large capacitors in parallel can clean the (now) DC voltage
-- Voltage regulators can be used to further clean the voltage
+- Voltage regulators can be used step-down the incoming voltage to 12V and 5V
 
 I also (heavily) borrowed ideas from a [DIY kit from Frequency Central](https://frequencycentral.co.uk/product/fc-power/). I watched a few videos where this kit was recommended, but I didn't want to pay the PCB price (and shipping), so I studied the image of the PCB and (hopefully) worked out the underlying schematic that I could use on a stripboard.
 
@@ -37,15 +37,15 @@ As I said earlier, I decided to save some money and not buy the FC Power PCB, an
 
 <img src="/assets/images/psu_stripboard.png" alt="psu_stripboard" width="600"/>
 
-After I finished my layout, I marked my trace cuts with a marker, and drilled them out. I've seen people do this by hand with a drill bit, but I was unable to make substantial cuts way, so I used my drill. After drilling, I used my multimeter's continuity test mode to ensure that there was no connection between the traces.
+After I finished my layout, I marked my trace cuts with a marker, and drilled them out. I've seen people do this by hand with a drill bit, but I was unable to make substantial progress this way, so I used my drill. After drilling, I used my multimeter's continuity test mode to ensure that there was no connection between the traces.
 
-My power socket leads didn't fit my stripboard, so I also had to use a smaller drill bit and a knife to create a slot between two holes for the leads.
+My power socket leads didn't fit my stripboard, so I also had to use a smaller drill bit and a knife to create a slot between two of the stripboard holes.
 
 <img src="/assets/images/psu2.png" alt="psu2" width="600"/>
 
 ## Assembly
 
-I was ready to add components. I double-checked my layout each time I added a component to avoid any desoldering (which is always a pain), and worked my thru the diodes, resistors, and other components. I had a few different colors of pin headers, so I used the following color scheme for the output headers:
+I was ready to add components. I double-checked my layout each time I added a component to avoid any desoldering (which is always a pain), and worked my way thru the diodes, resistors, and other components. I had a few different colors of pin headers, so I used the following color scheme for the output headers:
 - Red: -12V
 - White: GND
 - Green: +12V
