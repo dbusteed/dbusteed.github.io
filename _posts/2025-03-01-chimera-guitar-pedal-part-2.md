@@ -10,7 +10,7 @@ In the [previous post](https://dbusteed.github.io/chimera-guitar-pedal-part-1/),
 
 ## Toolchain Setup
 
-Before getting to this point, I had tested the Daisy Seed quite a bit on a breadboard, which means I had already installed the compiler toolchain, etc. I won't cover any of that here, since it is well documented on the Daisy Seed Wiki.
+Before getting to this point, I had tested the Daisy Seed quite a bit on a breadboard, which means I had already installed the compiler toolchain, etc. I won't cover any of that here, since it is well documented on the [Daisy Seed Wiki](https://github.com/electro-smith/DaisyWiki/wiki).
 
 ## Conceptual Design
 
@@ -23,11 +23,12 @@ The Terrarium PCB has 6 poteniometers, 4 switches, and 2 footswitches (each with
 - The last toggle switch can select bewteen 2 different looper modes provided in the DaisySP looper module.
 
 Here's a quick summary:
+
 <img src="/assets/images/chimera/IMG_1363.jpeg" alt="design" width="600"/>
 
 ## Effects
 
-Since this was my first time writing DSP code, I decided to keep things simple and rely on the prebuilt DSP modules provided in the [DaisySP](#) library.
+Since this was my first time writing DSP code, I decided to keep things simple and rely on the prebuilt DSP modules provided in the [DaisySP](https://github.com/electro-smith/DaisySP) library.
 
 Here's the effects I settled on:
 - Chorus
@@ -59,9 +60,8 @@ case CHORUS:
 
 With the ADC wiggle handled, it was just a matter of adding all the effects together, and playing around with values a bit. It's far from perfect, but I'm happy with the results.
 
-Here's a short demo:
-<!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/Mqcuazmlhpo"></iframe> -->
+Here's a short [demo on YouTube](https://www.youtube.com/shorts/JW6Kcwg_f50).
 
 ## Code
 
-You can check out the (poorly written) code [here](https://github.com/dbusteed/chimera).
+You can also check out the (poorly written) code [here](https://github.com/dbusteed/chimera).
