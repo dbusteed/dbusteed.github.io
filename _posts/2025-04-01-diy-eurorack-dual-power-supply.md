@@ -1,5 +1,5 @@
 ---
-title: "DIY Eurorack Dual Power Supply"
+title: "DIY Eurorack: Dual Power Supply"
 tags:
   - electronics
   - DIY synth
