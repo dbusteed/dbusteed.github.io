@@ -10,7 +10,7 @@ In my [previous post](https://dbusteed.github.io/diy-eurorack-dual-power-supply/
 
 ## DIY Case
 
-There's a ton of options out there for eurorack cases, and I was really tempted by [cre8audio's NiftyCase](https://www.cre8audio.com/niftycase), as it's cheap and has some nice built-ins (namely power and MIDI-to-CV). But...I decided to keep this project as DIY as possible (and save some money). 
+There's a ton of options out there for eurorack cases, and I was really tempted by [cre8audio's NiftyCase](https://www.cre8audio.com/niftycase), as it's not too expensive and has some nice built-ins (namely power and MIDI-to-CV). But I decided to keep this project as DIY as possible (and save some money). 
 
 I've seen people online drill their modules directly into pieces of wood with no metal rails, but I was afraid that would limit my flexibility to move my modules around. So instead I ordered [this rail kit](https://www.amazon.com/Synthrotek-Eurorack-Brackets-Rails-Slide/dp/B07FWYLQ5Y) and built a makeshift wooden box to house it. The "wood" is a manufactured wood material from my old desk. It has a wood veneer on the outsides so it's kinda presentable (except for the cut edges, which I might paint later).
 
@@ -24,14 +24,27 @@ I didn't make a schematic or stripboard layout for this because it's so simple. 
 
 <img src="/assets/images/passive1.jpeg" alt="passive1" width="600"/>
 
-Here's some "specs" for the module:
+### Size and Power Consumption
 
-- HP: 3-ish
-- Power Consumption: None!
+| Attribute | Value |
+|---|---|
+| HP | 3-ish |
+| +12V | 0mA |
+| +5V | 0mA |
+| -12V | 0mA |
 
-## Wood Panel?
+### Price
 
-Now was the moment I've been dreading: the front panel. Again, there's a lot of options here. I was looking into ordering blank aluminum panels from a PCB manufacturer, but once again decided to keep things cheap and "interesting".
+| Part | Qty * Price | Total Price |
+|---|---|---|
+| Jack | 8 * 0.147 | $1.175 |
+| Stripboard | 0.5 * 0.58 | $0.29 |
+| Panel | Free! (see below) | $0.00 |
+|||$1.46|
+
+## Free Panel?
+
+There are also a lot of options for front panels. I was looking into ordering blank aluminum panels from a PCB manufacturer, but once again decided to keep things cheap and "interesting".
 
 While building a craft at Home Depot's Kid Workshop with my daughter, I realized the thin MDF boards used in the majority of those kits might also work as a eurorack panel. I don't believe Home Depot actually sells this wood, so if it works well for panels, I will just salvage my daughter's projects once she's done playing with them (which is usually a few days, haha).
 
@@ -41,7 +54,7 @@ From what I have read, modular panels are between 1.6 and 2.0mm thick, but some 
 
 As for strength, I don't want a panel snapping when putting in and pulling out patch cables, so I did a quick test. I mounted a jack in the middle of a panel (the middle being the weakest point with the most flex), and patched and unpatched a cable repeatedly. I can't say what will happen after the 100th patch, but in my mini test it seemed strong enough. Plus, I plan to have my jacks and other components mounted to a stripboard underneath the panel, so that should add to the strength of each individual jack.
 
-## Finished Passive Multiple
+## Final Product
 
 I cut my panel and drilled my holes. I found some orange paint (the only color I could find) and did a quick paint job.
 
