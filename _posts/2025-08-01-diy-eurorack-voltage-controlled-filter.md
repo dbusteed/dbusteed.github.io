@@ -4,6 +4,8 @@ tags:
   - electronics
   - DIY synth
   - Eurorack
+excerpt: Power supply? Check. Case? Check. It was time to build a real Eurorack module.
+description: Power supply? Check. Case? Check. It was time to build a real Eurorack module.
 ---
 
 [Power supply?](https://dbusteed.github.io/diy-eurorack-dual-power-supply/) Check.
@@ -60,9 +62,11 @@ I'm debating if I should add labels to the knobs and jacks, but for now I like t
 
 <img src="/assets/images/VCF_1542.png" alt="vcf4" width="600"/>
 
+## Demo
+
 I gave it a quick test using an [Atari Punk Console](https://dbusteed.github.io/atari-punk-console/) as my oscililator, and I was able to filter sounds!
 
-After I get a few more modules built I'll put together a short video demo, but for now it didn't seem worth the effort. So stay tuned for more!
+<iframe width="640" height="360" src="https://www.youtube.com/embed/M6C4m6JB_b4"></iframe>
 
 ## Specs
 
@@ -71,9 +75,9 @@ After I get a few more modules built I'll put together a short video demo, but f
 | Attribute | Value |
 |---|---|
 | HP | 6-ish |
-| +12V | TODO mA |
+| +12V | ~5mA |
 | +5V | 0mA |
-| -12V | TODO mA |
+| -12V | ~5mA |
 
 ### TODO Price
 
