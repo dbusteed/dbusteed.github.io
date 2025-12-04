@@ -62,29 +62,20 @@ As suggested by others, this design might not be the best fit for a large Eurora
 
 ## Specs and Price
 
-### Power Output TODO
+### Power Output
 
-From what I can tell, calculating a power supply's output potential is tricky, it requires a fancy tool or smart maths. I don't have either, so I'm relying on the specs proivded on the FC Power page. 
+From what I can tell, calculating a power supply's output potential is tricky, it requires a fancy tool or smart maths. I don't have either, so I'm relying on the specs proivded on the FC Power page.
 
 | Attribute | Value |
 |---|---|
-| +12V | 0mA |
-| +5V | 0mA |
-| -12V | 0mA |
+| +12V | 500mA |
+| +5V | 100mA |
+| -12V | 500mA |
 
 ### Price
 
-| Part | Qty * Price | Total Price |
-|---|---|---|
-| Stripboard | 1 * 0.58 | $0.58 |
-| Power jack | 1 * 0.09 | $0.09 |
-| 1N4004 diode | 6 * 0.01 | $0.06 |
-| 4700uF caps | 6 * 0.34 | $2.04 |
-| L7812 + heatsink | 1 * 0.33 | $0.33 |
-| L7912 + heatsink | 1 * 0.33 | $0.33 |
-| L7805 | 1 * 0.03 | $0.03 |
-| LEDs | 3 * 0.01 | $0.03 |
-| resistors | 3 * 0.01 | $0.03 |
-| other caps | 5 * 0.15 | $0.75 |
-| header pins | a handful * 0.12 | $0.12 |
-| **TOTAL** ||**$4.39**|
+Big caps ($2), regulators ($1), other stuff = **about $4**.
+
+### Project Files
+
+[https://github.com/dbusteed/eurorack/db_power_supply](https://github.com/dbusteed/eurorack/db_power_supply)

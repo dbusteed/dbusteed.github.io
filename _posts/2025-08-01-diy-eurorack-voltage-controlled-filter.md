@@ -74,16 +74,17 @@ I gave it a quick test using an [Atari Punk Console](https://dbusteed.github.io/
 
 | Attribute | Value |
 |---|---|
-| HP | 6-ish |
+| HP | 6ish |
 | +12V | ~5mA |
 | +5V | 0mA |
 | -12V | ~5mA |
 
-### TODO Price
+### Price
 
-| Part | Qty * Price | Total Price |
-|---|---|---|
-| Jack | 4 * 0.147 | $1.175 |
-| Stripboard | 1 * 0.58 | $0.29 |
-| Panel | free | $0.00 |
-|||$???|
+Pots ($2), knobs ($2), panel (free!), other stuff = **about $7**.
+
+Read about how I'm making my panels at the bottom of [this post](https://dbusteed.github.io/diy-eurorack-case-and-passive-multiple/)
+
+### Project Files
+
+[https://github.com/dbusteed/eurorack/db_vcf](https://github.com/dbusteed/eurorack/db_vcf)

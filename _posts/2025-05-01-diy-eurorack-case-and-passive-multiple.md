@@ -28,19 +28,14 @@ I didn't make a schematic or stripboard layout for this because it's so simple. 
 
 | Attribute | Value |
 |---|---|
-| HP | 3-ish |
+| HP | 3ish |
 | +12V | 0mA |
 | +5V | 0mA |
 | -12V | 0mA |
 
 ### Price
 
-| Part | Qty * Price | Total Price |
-|---|---|---|
-| Jack | 8 * 0.147 | $1.175 |
-| Stripboard | 0.5 * 0.58 | $0.29 |
-| Panel | Free! (see below) | $0.00 |
-|||$1.46|
+Jacks ($1), stripboard ($0.50), panel (free!) = **about $2**.
 
 ## Free Panel?
 
