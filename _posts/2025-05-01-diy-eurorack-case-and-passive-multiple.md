@@ -35,7 +35,7 @@ I didn't make a schematic or stripboard layout for this because it's so simple. 
 
 ### Price
 
-Jacks ($1), stripboard ($0.50), panel (free!) = **about $2**.
+Jacks (\$1), stripboard (\$0.50), panel (free!) = **about \$2**.
 
 ## Free Panel?
 
