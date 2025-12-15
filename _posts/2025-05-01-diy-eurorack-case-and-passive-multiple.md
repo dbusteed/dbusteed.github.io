@@ -29,13 +29,13 @@ I didn't make a schematic or stripboard layout for this because it's so simple. 
 | Attribute | Value |
 |---|---|
 | HP | 3ish |
-| +12V | 0mA |
-| +5V | 0mA |
-| -12V | 0mA |
+| +12V | 0 mA |
+| +5V | 0 mA |
+| -12V | 0 mA |
 
 ### Price
 
-Jacks (\$1), stripboard (\$0.50), panel (free!) = **about \$2**.
+Jacks (\\$1), stripboard (\\$0.50), panel (free!) = **about \\$2**.
 
 ## Free Panel?
 

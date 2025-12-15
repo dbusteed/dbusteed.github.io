@@ -22,7 +22,7 @@ It threw it together on the breadboard, and it worked! Good enough for me for my
 
 <img src="/assets/images/VCF_1465.png" alt="vcf1" width="600"/>
 
-I removed a few features of the design (namely the LEDs and the all pass filter selector) to keep things simple and compact (althogh Ben's design is still smaller than mine, probably thanks to PCBs and more XP). My version of schematic can be found [here](https://github.com/dbusteed/eurorack/db_vcf).
+I removed a few features of the design (namely the LEDs and the all pass filter selector) to keep things simple and compact (althogh Ben's design is still smaller than mine, probably thanks to PCBs and more XP). My version of schematic can be found [here](https://github.com/dbusteed/eurorack/tree/master/db_vcf).
 
 ## Step 2: Stripboard Layout
 
@@ -30,7 +30,7 @@ I started making my stripboard layout using [DIY Layout Creator](https://bancika
 
 I had one small hiccup here that I'll explain in the next section. Otherwise, this step went smoothly. I prepared for soldering by first drilling trace cuts (and confirming the cuts with a continuity test), as well as trilling thru-holes for my plastic standoffs.
 
-You can find the layout file [here](https://github.com/dbusteed/eurorack/db_vcf).
+You can find the layout file [here](https://github.com/dbusteed/eurorack/tree/master/db_vcf).
 
 ## Step 3: Assembly
 
@@ -74,17 +74,17 @@ I gave it a quick test using an [Atari Punk Console](https://dbusteed.github.io/
 
 | Attribute | Value |
 |---|---|
-| HP | 6ish |
-| +12V | ~5mA |
-| +5V | 0mA |
-| -12V | ~5mA |
+| HP | 6-ish |
+| +12V | 5 mA |
+| +5V | 0 mA |
+| -12V | 5 mA |
 
 ### Price
 
-Pots (\$2), knobs (\$2), panel (free!), other stuff = **about \$7**.
+Pots (\\$2), knobs (\\$2), panel (free!), other stuff = **about \\$7**.
 
 Read about how I'm making my panels at the bottom of [this post](https://dbusteed.github.io/diy-eurorack-case-and-passive-multiple/).
 
 ### Project Files
 
-[https://github.com/dbusteed/eurorack/db_vcf](https://github.com/dbusteed/eurorack/db_vcf)
+[https://github.com/dbusteed/eurorack/tree/master/db_vcf](https://github.com/dbusteed/eurorack/tree/master/db_vcf)

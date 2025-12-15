@@ -68,14 +68,14 @@ From what I can tell, calculating a power supply's output potential is tricky, i
 
 | Attribute | Value |
 |---|---|
-| +12V | 500mA |
-| +5V | 100mA |
-| -12V | 500mA |
+| +12V | 500 mA |
+| +5V | 100 mA |
+| -12V | 500 mA |
 
 ### Price
 
-Big caps (\$2), regulators (\$1), other stuff = **about \$4**.
+Big caps (\\$2), regulators (\\$1), other stuff = **about \\$4**.
 
 ### Project Files
 
-[https://github.com/dbusteed/eurorack/db_power_supply](https://github.com/dbusteed/eurorack/db_power_supply)
+[https://github.com/dbusteed/eurorack/tree/master/db_power_supply](https://github.com/dbusteed/eurorack/tree/master/db_power_supply)
