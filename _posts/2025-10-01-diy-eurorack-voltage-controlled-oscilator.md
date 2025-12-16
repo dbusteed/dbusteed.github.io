@@ -12,13 +12,13 @@ The oscilator is where sound traditionally originates in subtractive synthesis, 
 
 For my first attempt at building a VCO, I wanted at least three things:
 
-1. 1V/octave input (more on this later)
+1. 1V/Octave input
 2. 2+ waveform outputs
 3. Some degree of fine-tuning the pitch
 
 After quite a bit of digging in the modular DIY communities, I found two designs I liked: one from [Sebastian Murgul](https://sebastian-murgul.com/hardware/modular-synthesizer/as3340-vco/), and another from [Look Mum No Computer](https://www.lookmumnocomputer.com/cem-3340-diy-simple/). I think Sebastian references LMNC's design too. These designs use the **CEM3340 / AS3340**. LMNC's video about his VCO gives a fun history on the chip, but basically, the IC is built specifically for building VCOs (how nice!), and includes different waveform outputs and 1V/Oct input.
 
-The sourcing of these chips is a little more limited than AliExpress, I found my AS3340 at [https://aisynthesis.com/](https://aisynthesis.com/).
+The sourcing of these chips is a little more limited than AliExpress, I found my AS3340 at [aisynthesis.com](https://aisynthesis.com/).
 
 ## Step 1: Schematic
 
@@ -49,7 +49,7 @@ And here's what it looked like after mounting the panel and adding to my case:
 
 <img src="/assets/images/vco_final.jpeg" alt="vco3" width="600"/>
 
-## Tuning
+## Step 4: Tuning
 
 Once powered on, I needed to tune the VCO. Given this was my first VCO build, I didn't really understand how tuning a VCO works. My build has two pots, one for course pitch and fine pitch adjustment. I could play a C3 on my KeyStep keyboard (connected via Pitch <-> V/Oct) and turn the knobs til the module gave a C3 pitch, but unfortunately as soon as I played a C4 on the keyboard, I was getting a different pitch from the module.
 
@@ -59,9 +59,7 @@ This is where the trimmers on the back panel come in. They seem to adjust the "s
 
 And finally, here's a quick demo of the VCO:
 
-(video coming soon)
-
-<!-- <iframe width="640" height="360" src="https://www.youtube.com/embed/M6C4m6JB_b4"></iframe> -->
+<iframe width="640" height="360" src="https://www.youtube.com/embed/sJH2IidDZs8"></iframe>
 
 ## Specs
 
@@ -78,7 +76,7 @@ And finally, here's a quick demo of the VCO:
 
 AS3340 (\\$12), knobs (\\$1), panel (free!), other stuff = **about \\$18**.
 
-Read about how I'm making my panels at the bottom of [this post](https://dbusteed.github.io/diy-eurorack-case-and-passive-multiple/)
+Read about how I'm making my panels at the bottom of [this post](https://dbusteed.github.io/diy-eurorack-case-and-passive-multiple/).
 
 ### Project Files
 
