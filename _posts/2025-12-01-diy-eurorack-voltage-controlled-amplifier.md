@@ -8,7 +8,7 @@ tags:
 
 After finishing my osciliator, the next logical step was a voltage-controlled amplifier (VCA), to control the amplitude of my oscilator (via voltage of course). Without the VCA, I could only control the pitch of my VCO, but not when the sound starts and stops. There are other uses of VCAs, but this was my primary goal.
 
-> **SPOILER:** This build was only *75%* successful, but more on that later.
+> **SPOILER:** This build was only partly successful, but more on that later.
 
 ## Step 1 & 2: Schematic and Stripboard Layout
 
@@ -33,7 +33,7 @@ Nothing special here, just the basic steps:
 1. Added the panel
 1. Added to the case
 
-TODO ADD PIC
+<img src="/assets/images/vca.jpg" alt="vca" width="600"/>
 
 ## Mixed Success?
 
@@ -44,6 +44,12 @@ First, only one of the VCA setups worked. Side "A" would pass the input to the o
 Luckily side "B" worked, and I really only needed one VCA to accomplish my goal. But I also noticed that the wave coming out of side B was really squarish, regardless of the saw or triangle input. This may be addressed in Hagiwo's build article, or maybe it's something wrong on my part.
 
 I had come this far, so I ignored these issues and finished the build, but of course be aware of this if you're looking to replicate this build.
+
+## Demo
+
+Quick demo of the VCA (mostly) in action:
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/guO2mmZ5oS4"></iframe>
 
 ## Specs
 
