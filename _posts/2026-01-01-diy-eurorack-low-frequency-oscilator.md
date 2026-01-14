@@ -36,7 +36,7 @@ Here's the full setup so far (LFO in red):
 
 Quick demo of the LFO:
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/TODO"></iframe>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ea3xIqGEKo4"></iframe>
 
 ## Specs
 
