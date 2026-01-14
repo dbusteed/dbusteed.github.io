@@ -80,4 +80,4 @@ Read about how I'm making my panels at the bottom of [this post](https://dbustee
 
 ### Project Files
 
-[https://github.com/dbusteed/eurorack/tree/master/db_vco](https://github.com/dbusteed/eurorack/tree/master/db_vco)
+Checkout the [schematic, stripboard layout, and other files here](https://github.com/dbusteed/eurorack/tree/master/db_vco)

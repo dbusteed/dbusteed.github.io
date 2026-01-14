@@ -10,7 +10,7 @@ After finishing my osciliator, the next logical step was a voltage-controlled am
 
 > **SPOILER:** This build was only partly successful, but more on that later.
 
-## Step 1 & 2: Schematic and Stripboard Layout
+## Steps 1 & 2: Schematic and Stripboard Layout
 
 One of the easier approaches to VCAs (as far as I could tell) was to use an [operational transconductance amplifier](https://en.wikipedia.org/wiki/Operational_transconductance_amplifier) (OTA), which to selectively quote Wikipedia, is "an amplifier that...is...voltage controlled." Perfect!
 
@@ -26,18 +26,17 @@ Nothing special here, just the basic steps:
 
 1. Cut the stripboard
 1. Cut traces and test (lack of) continuity
-1. Soldered all the stuff
-1. Connected my two boards
-1. Tested the build
-1. Cut, drilled, and painted the panel
-1. Added the panel
-1. Added to the case
+1. Solder all the stuff
+1. Connect the two boards
+1. Test the build
+1. Cut, drill, and paint the panel
+1. Attach the panel
 
 <img src="/assets/images/vca.jpg" alt="vca" width="600"/>
 
 ## Mixed Success?
 
-During the "tested the build" step from above, I discovered two issues.
+During the "test the build" step from above, I discovered two issues.
 
 First, only one of the VCA setups worked. Side "A" would pass the input to the output, but the level control and CV input didn't affect it at all. I checked my schematic, layout, and my soldering and saw no issues. 
 
@@ -70,4 +69,4 @@ Read about how I'm making my panels at the bottom of [this post](https://dbustee
 
 ### Project Files
 
-[https://github.com/dbusteed/eurorack/tree/master/db_vca](https://github.com/dbusteed/eurorack/tree/master/db_vca)
+Checkout the [schematic, stripboard layout, and other files here](https://github.com/dbusteed/eurorack/tree/master/db_vca)

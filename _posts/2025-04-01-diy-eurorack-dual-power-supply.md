@@ -78,4 +78,4 @@ Big caps (\\$2), regulators (\\$1), other stuff = **about \\$4**.
 
 ### Project Files
 
-[https://github.com/dbusteed/eurorack/tree/master/db_power_supply](https://github.com/dbusteed/eurorack/tree/master/db_power_supply)
+Checkout the [schematic, stripboard layout, and other files here](https://github.com/dbusteed/eurorack/tree/master/db_power_supply)
