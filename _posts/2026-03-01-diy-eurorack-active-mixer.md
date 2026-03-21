@@ -1,5 +1,5 @@
 ---
-title: "DIY Eurorack: Active Mixer"
+title: "DIY Eurorack: 3-Channel Mixer"
 tags:
   - electronics
   - DIY synth
