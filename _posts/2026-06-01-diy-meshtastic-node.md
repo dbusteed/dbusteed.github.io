@@ -1,7 +1,8 @@
 ---
-title: "DIY Meshtastic Node (No Pre-built Boards)"
+title: "DIY Meshtastic LoRa Node"
 tags:
   - electronics
+  - LoRa
   - Meshtastic
 ---
 
@@ -31,7 +32,7 @@ I wanted my first DIY node to be as simple as possible while still easy to debug
 
 ## Shopping List
 
-Throughout the design process, I was curious to see how my DIY build would compare to a kit cost-wise. At the time of writing, the Heltec V3 is $18 (plus shipping). My AliExpress order for the ESP32 ($5), radio module ($7), and display ($2) came out to $14 (free shipping on orders over $10). So not a huge difference, but there's also some options for cost savings if I chose a smaller ESP32 rather than the DevKit that provides more pins.
+Throughout the design process, I was curious to see how my DIY build would compare to a kit cost-wise. At the time of writing, the Heltec V3 is \\$18 (plus shipping). My AliExpress order for the ESP32 (\\$5), radio module (\\$7), and display (\\$2) came out to \\$14 (free shipping on orders over \\$10). So not a huge difference, but there's also some options for cost savings if I chose a smaller ESP32 rather than the DevKit that provides more pins.
 
 The biggest cost was that radio module (often labeled DX-LR30 on AliExpress), because it seems most SX1262s are sold as SMD components or sold with other boards.
 
@@ -83,7 +84,7 @@ mkdir variants/diy_esp32
 
 Within my `variants/diy_esp32` folder, I added the following files:
 
-```c
+```cpp
 //
 // variant.h
 // 
@@ -115,7 +116,7 @@ Within my `variants/diy_esp32` folder, I added the following files:
 #endif
 ```
 
-```c
+```cpp
 //
 // pins_arduino.h
 //
@@ -194,8 +195,9 @@ iPad + Meshtastic App  <--Bluetooth-->  DIY ESP32 Node
 
 After connecting to each node from the respective iOS app, I was sending messages in no time!
 
-<img src="/assets/images/meshtastic/breadboard.png" alt="1" width="600"/>
-<img src="/assets/images/meshtastic/messages.png" alt="1" width="600"/>
+<img src="/assets/images/meshtastic/breadboard.jpg" alt="1" width="600"/>
+
+<img src="/assets/images/meshtastic/messages.jpg" alt="1" width="600"/>
 
 ## Breadboard to Stripboard
 
@@ -209,4 +211,4 @@ Here's the stripboard layout:
 
 I'm honestly a bit surprised that I was able to build this node. Of course a more functional node would include a battery and a 3D printed case, but for now I'm very happy with the results.
 
-<img src="/assets/images/meshtastic/final_build.png" alt="1" width="600"/>
+<img src="/assets/images/meshtastic/final_build.jpg" alt="1" width="600"/>
